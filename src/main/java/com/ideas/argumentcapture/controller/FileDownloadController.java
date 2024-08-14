@@ -1,6 +1,6 @@
-package com.ideas.downloadfile.controller;
+package com.ideas.argumentcapture.controller;
 
-import com.ideas.downloadfile.service.FileDownloaderService;
+import com.ideas.argumentcapture.service.FileDownloaderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
