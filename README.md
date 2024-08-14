@@ -17,5 +17,9 @@ Requirements:
 ### 2 Parametrized test cases
 Implement parametrized test cases for the EmailValidator, Encryption, and LeapYear classes.
 
-### 3 Unit test puzzle
-Fix the unit test given in FileDownloadControllerTest class.
+### 3 Fluent Interface pattern
+Implement the test in KindomTest.java using the Fluent Interface pattern.
+
+### 4 Argument Captor
+1. Fix the test in FileDownloaderTest.java 
+2. Implement the test in FileDownloaderTest.java using the Argument Captor pattern.
