@@ -34,5 +34,6 @@ class FileDownloadControllerTest {
         verify(downloaderService).downloadFile(file.getAbsolutePath());
         assertTrue(condition);
     }
+
 }
 
