@@ -33,6 +33,7 @@ class FileDownloadControllerTest {
         boolean condition = fileDownloadController.downloadFile(file.getAbsolutePath());
         verify(downloaderService).downloadFile(file.getAbsolutePath());
         assertTrue(condition);
+        assertEquals(file, fileDownloadController.downloadFile(file.getAbsolutePath()));
     }
 
 }
